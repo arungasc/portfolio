@@ -1,0 +1,82 @@
+.about-wrapper {
+    background-color: #111;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .about-title {
+    color: #ff4500;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #dddddd;
+    transition: color 0.3s ease;
+  }
+  
+  .about-text:hover {
+    color: #ffffff;
+  }
+  
+  .highlight {
+    color: #ff4500;
+    font-weight: bold;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .skills-list li {
+    padding: 8px 0;
+    font-size: 1rem;
+    color: #cccccc;
+    transition: all 0.3s ease;
+  }
+  
+  .skills-list li span {
+    color: #ff4500;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .skills-list li:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+  }
+  
+  .about-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.1);
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .skills-list {
+      font-size: 0.95rem;
+    }
+  
+    .about-card {
+      font-size: 0.95rem;
+    }
+  }
+  

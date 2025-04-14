@@ -1,0 +1,23 @@
+.edu-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .edu-card {
+      padding: 20px;
+    }
+  
+    .edu-card h5 {
+      font-size: 1.1rem;
+    }
+  
+    .edu-card p {
+      font-size: 0.95rem;
+    }
+  }
+  

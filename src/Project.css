@@ -1,0 +1,75 @@
+.project-title {
+    color: #00FFFF;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.4);
+  }
+  
+  .custom-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #2c2c2c;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px #00ffff;
+  }
+  
+  .project-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  /* 💥 Run Button Custom Style */
+  .btn-run {
+    background-color: #FF4500;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+  }
+  
+  .btn-run:hover {
+    background-color: #ffffff;
+    color: #FF4500;
+    border: 2px solid #FF4500;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .project-title {
+      font-size: 2rem;
+    }
+  
+    .project-img {
+      height: 160px;
+    }
+  
+    .card-body h5 {
+      font-size: 1.1rem;
+    }
+  
+    .card-body p {
+      font-size: 0.9rem;
+    }
+  
+    .btn-run {
+      padding: 8px 20px;
+      font-size: 0.9rem;
+    }
+  }
+  
